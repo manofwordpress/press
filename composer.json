@@ -1,0 +1,15 @@
+{
+    "name": "sharkas/press",
+    "description": "An elegant markdown-powered blog for the laravel framework.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "manofwordpress",
+            "email": "manofwordpress@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^3.8"
+    }
+}
