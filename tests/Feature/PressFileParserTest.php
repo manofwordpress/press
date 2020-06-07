@@ -10,6 +10,7 @@ namespace sharkas\Press\Tests;
 
 
 use Carbon\Carbon;
+use function json_encode;
 use Orchestra\Testbench\TestCase;
 use sharkas\Press\PressFileParser;
 
@@ -20,7 +21,7 @@ class PressFileParserTest extends TestCase
     {
         $pressFileParser = (new PressFileParser(__DIR__.'/../blogs/MarkFile1.md'));
 
-        $data = $pressFileParser->getData();
+        $data = $pressFileParser->getRawData();
 
         $this->assertContains('title: My Title',$data[1]);
         $this->assertContains('description: Description here',$data[1]);
@@ -32,7 +33,7 @@ class PressFileParserTest extends TestCase
     {
         $pressFileParser = (new PressFileParser("---\ntitle: My Title\n---\nBlog post body here"));
 
-        $data = $pressFileParser->getData();
+        $data = $pressFileParser->getRawData();
 
         $this->assertContains('title: My Title',$data[1]);
         $this->assertContains('Blog post body here',$data[2]);
@@ -57,7 +58,6 @@ class PressFileParserTest extends TestCase
 
         $data = $pressFileParser->getData();
 
-        //$this->assertEquals("# Heading\n\nBlog post body here",$data['body']);
         $this->assertEquals("<h1>Heading</h1>\n<p>Blog post body here</p>",$data['body']);
     }
 
@@ -71,5 +71,30 @@ class PressFileParserTest extends TestCase
         $this->assertInstanceOf(Carbon::class,$data['date']);
         $this->assertEquals('01-04-1986',$data['date']->format('d-m-Y'));
     }
+
+    /** @test */
+    public function extra_fields_gets_saved()
+    {
+        $pressFileParser = (new PressFileParser("---\nauthor: Amr Sharkas\n---\n"));
+
+        $data = $pressFileParser->getData();
+
+        $this->assertEquals(json_encode(['author' => 'Amr Sharkas']),$data['extra']);
+
+    }
+
+    /** @test */
+    public function test_two_additional_extra_fields_get_saved()
+     {
+         //here for extra field it will loop twice and use Extra class
+         //that is why he merge in Extra class
+         $pressFileParser = (new PressFileParser("---\nauthor: Amr Sharkas\nimage: images/img.jpg\n---\n"));
+
+         $data = $pressFileParser->getData();
+
+         $this->assertEquals(json_encode(['author' => 'Amr Sharkas','image' => 'images/img.jpg']),$data['extra']);
+     }
+
+
 
 }

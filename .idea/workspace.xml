@@ -6,21 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32bfe99f-db64-458c-ba88-9700e1f34572" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fields/Body.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fields/Date.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MarkdownParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PressFileParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/Feature/MarkdownTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/Feature/PressFileParserTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/blogs/MarkFile1.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/press.iml" afterPath="$PROJECT_DIR$/.idea/press.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Fields/Body.php" afterPath="$PROJECT_DIR$/src/Fields/Body.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Fields/Date.php" afterPath="$PROJECT_DIR$/src/Fields/Date.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Fields/Extra.php" afterPath="$PROJECT_DIR$/src/Fields/Extra.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PressFileParser.php" afterPath="$PROJECT_DIR$/src/PressFileParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/PressFileParserTest.php" afterPath="$PROJECT_DIR$/tests/Feature/PressFileParserTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,33 +23,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MarkdownParser.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MarkdownParser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarkdownTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/MarkdownTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-              <folding>
-                <element signature="e#38#71#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PressFileParser.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PressFileParser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="85" column="22" lean-forward="false" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+            <state relative-caret-position="363">
+              <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding>
                 <element signature="e#6#94#0#PHP" expanded="true" />
                 <element signature="e#123#148#0#PHP" expanded="true" />
@@ -67,12 +36,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Body.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Fields/Body.php">
+      <file leaf-file-name="Extra.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Fields/Extra.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="161">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#129#154#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,21 +51,11 @@
       <file leaf-file-name="PressFileParserTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Feature/PressFileParserTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="64" column="42" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="42" />
+            <state relative-caret-position="173">
+              <caret line="89" column="46" lean-forward="false" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
               <folding>
                 <element signature="e#129#147#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Date.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Fields/Date.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -128,10 +89,11 @@
         <option value="$PROJECT_DIR$/tests/Feature/MarkdownTest.php" />
         <option value="$PROJECT_DIR$/src/MarkdownParser.php" />
         <option value="$PROJECT_DIR$/tests/blogs/MarkFile1.md" />
-        <option value="$PROJECT_DIR$/src/Fields/Body.php" />
         <option value="$PROJECT_DIR$/src/Fields/Date.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/PressFileParserTest.php" />
+        <option value="$PROJECT_DIR$/src/Fields/Body.php" />
         <option value="$PROJECT_DIR$/src/PressFileParser.php" />
+        <option value="$PROJECT_DIR$/src/Fields/Extra.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/PressFileParserTest.php" />
       </list>
     </option>
   </component>
@@ -420,12 +382,12 @@
       <updated>1591432766467</updated>
       <workItem from="1591432768010" duration="3811000" />
       <workItem from="1591438645211" duration="3162000" />
-      <workItem from="1591442876300" duration="8061000" />
+      <workItem from="1591442876300" duration="11577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15034000" />
+    <option name="totallyTimeSpent" value="18550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -439,7 +401,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38930348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3345771" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -573,26 +535,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fields/Date.php">
+    <entry file="file://$PROJECT_DIR$/src/Fields/Body.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="207">
+          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fields/Body.php">
+    <entry file="file://$PROJECT_DIR$/src/Fields/Date.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="230">
+          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Fields/Extra.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#129#154#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PressFileParser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="85" column="22" lean-forward="false" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+        <state relative-caret-position="363">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding>
             <element signature="e#6#94#0#PHP" expanded="true" />
             <element signature="e#123#148#0#PHP" expanded="true" />
@@ -602,8 +574,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/PressFileParserTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="64" column="42" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="42" />
+        <state relative-caret-position="173">
+          <caret line="89" column="46" lean-forward="false" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
           <folding>
             <element signature="e#129#147#0#PHP" expanded="true" />
           </folding>

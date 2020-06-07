@@ -8,14 +8,20 @@
 
 namespace sharkas\Press\Fields;
 
-use sharkas\Press\MarkdownParser;
+use function json_decode;
+use function json_encode;
 
-class Body
+
+class Extra
 {
-    public static function process($type,$value)
+    public static function process($type,$value,$data)
     {
+        $extra = isset($data['extra']) ? (array) json_decode($data['extra']) : [];
+
         return [
-                $type => MarkdownParser::parse($value),
+               'extra' => json_encode(array_merge($extra,[
+                   $type => $value
+               ]))
             ];
     }
 }
