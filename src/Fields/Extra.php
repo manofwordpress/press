@@ -12,7 +12,7 @@ use function json_decode;
 use function json_encode;
 
 
-class Extra
+class Extra extends FieldContract
 {
     public static function process($type,$value,$data)
     {

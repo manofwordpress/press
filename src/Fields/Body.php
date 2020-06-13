@@ -10,7 +10,7 @@ namespace sharkas\Press\Fields;
 
 use sharkas\Press\MarkdownParser;
 
-class Body
+class Body extends FieldContract
 {
     public static function process($type,$value,$data)
     {

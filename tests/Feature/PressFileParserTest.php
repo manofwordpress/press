@@ -11,7 +11,7 @@ namespace sharkas\Press\Tests;
 
 use Carbon\Carbon;
 use function json_encode;
-use Orchestra\Testbench\TestCase;
+
 use sharkas\Press\PressFileParser;
 
 class PressFileParserTest extends TestCase
@@ -59,6 +59,7 @@ class PressFileParserTest extends TestCase
         $data = $pressFileParser->getData();
 
         $this->assertEquals("<h1>Heading</h1>\n<p>Blog post body here</p>",$data['body']);
+
     }
 
     /** @test */

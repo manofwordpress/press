@@ -12,7 +12,7 @@
         "erusev/parsedown": "^1.7"
     },
     "require-dev": {
-        "orchestra/testbench": "^3.8"
+
     },
     "autoload": {
         "psr-4": {
@@ -23,5 +23,14 @@
         "psr-4": {
             "sharkas\\Press\\Tests\\": "tests/"
         }
+    },
+    "extra": {
+    "laravel": {
+        "dont-discover": [],
+        "providers":[
+            "sharkas\\Press\\PressBaseServiceProvider"
+            ]
+        }
     }
+
 }
